@@ -97,7 +97,7 @@
         // include($dir_user_index . 'offer.php');
         // include($dir_user_index . 'review_section.php');
         include($dir_user_index . 'contact_section.php');
-        include($dir_user_index . 'footer.php');
+        // include($dir_user_index . 'footer.php');
         include($dir_user_index . 'script_index.php');
     }
 

@@ -1,7 +1,7 @@
 <!-- Main content -->
 <section class="content content-wrapper">
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 bg-white">
       <div class="card">
         <div class="card-header">
           <h3 class="card-title">Quản lý đơn hàng</h3>

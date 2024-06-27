@@ -11,6 +11,7 @@ $(document).ready(function(){
         let price = $(form + ' > input[name=price]').val();
         let id_san_pham = $(form + ' > input[name=id_san_pham]').val();
         let image = $(form + ' > input[name=image]').val();
+
         $.ajax({
             url: url,
             type: "POST",
@@ -35,6 +36,59 @@ $(document).ready(function(){
             }
         });
     });
+
+    // $(document).on('click', '.them-pt-gio-hang', function(event) {
+    //     event.preventDefault();
+        
+    //     console.log("Button clicked!");
+    
+    //     let thao_tac = "Thêm";
+    //     let id = $(this).attr('data-id');
+    //     console.log("Product ID: ", id);
+        
+    //     let form = "#form-sp-" + id;
+    //     console.log("Form selector: ", form);
+        
+    //     let name = $(form + ' > input[name=name]').val();
+    //     let url = window.location.href;
+    //     let count = $(form + ' input[name=count]').val();
+    //     let price = $(form + ' > input[name=price]').val();
+    //     let id_san_pham = $(form + ' > input[name=id_san_pham]').val();
+    //     let image = $(form + ' > input[name=image]').val();
+        
+    //     console.log("Name: ", name);
+    //     console.log("URL: ", url);
+    //     console.log("Count: ", count);
+    //     console.log("Price: ", price);
+    //     console.log("Product ID: ", id_san_pham);
+    //     console.log("Image: ", image);
+    
+    //     $.ajax({
+    //         url: url,
+    //         type: "POST",
+    //         data: {
+    //             thao_tac: thao_tac,
+    //             name: name,
+    //             count: count,
+    //             price: price,
+    //             id_san_pham: id_san_pham,
+    //             image: image,
+    //         },
+    //         success: function(data) {
+    //             console.log("Response data: ", data);
+    //             data = JSON.parse(data);
+    //             if (data.statusCode == 200) {
+    //                 alert("Bạn đã thêm sản phẩm vào giỏ hàng thành công.");
+    //             } else if (data.statusCode == 201) {
+    //                 alert("Đã có lỗi xảy ra. Vui lòng reload lại trang web.");
+    //             }
+    //         },
+    //         error: function(data) {
+    //             console.log("Error: ", data);
+    //         }
+    //     });
+    // });
+    
 
     // sửa phần tử giỏ hàng
     $(document).on('click','.sua-pt-gio-hang',function(event){

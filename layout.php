@@ -1,5 +1,4 @@
 <?php
-
     /** admin **/
     // cau hinh trang admin_index
     if ($_isIndexPage == true) {
@@ -88,16 +87,20 @@
         include($dir_user_index . 'head.php');
         // include($dir_user_index.'category_side_menu.php');
         include($dir_user_index . 'header.php');
+        // include($dir_user_index.'top_discount.php');
         include($dir_user_index . 'home_section.php');
+        // include($dir_user_index.'top_category.php');
         include($dir_user_index . 'about_section.php');
-        include($dir_user_index . 'product_section.php');
         include($dir_user_index . 'quick_view_modal.php');
-        include($dir_user_index . 'news.php');
-        include($dir_user_index . 'offer.php');
+        include($dir_user_index . 'product_section.php');
+        // include($dir_user_index . 'news.php');
+        // include($dir_user_index . 'offer.php');
+        include($dir_user_index . 'review_section.php');
+        include($dir_user_index . 'contact_section.php');
         include($dir_user_index . 'footer.php');
         include($dir_user_index . 'script_index.php');
     }
-    
+
     // cau hinh trang register cho user
     if ($_isUserRegisterPage == true) {
         $dir_user_register = _DIR_['COMPONENTS']['USERS'];
@@ -114,7 +117,7 @@
         include($dir_login . 'script.php');
     }
 
-
+    // 
     if ($_isUserProductDetailPage == true) {
         $dir_product_detail = _DIR_['COMPONENTS']['USERS'];
         include($dir_product_detail . 'head.php');
@@ -126,12 +129,13 @@
         include($dir_product_detail . 'script.php');
     }
 
+    // cau hinh trang cart cho user
     if ($_isUserCartPage == true) {
         $dir_cart = _DIR_['COMPONENTS']['USERS'];
         include($dir_cart . 'head.php');
-        include($dir_cart . 'category_side_menu.php');
+        // include($dir_cart . 'category_side_menu.php');
         include($dir_cart . 'header.php');
-        include($dir_cart . 'top_discount.php');
+        // include($dir_cart . 'top_discount.php');
         include($dir_cart . 'cart.php');
         include($dir_cart . 'footer.php');
         include($dir_cart . 'script.php');
@@ -144,6 +148,7 @@
         include($dir_info . 'info.php');
         include($dir_info . 'script.php');
     }
+
 
     if ($_isUserBillPage == true) {
         $dir_info = _DIR_['COMPONENTS']['USERS'];

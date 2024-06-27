@@ -45,7 +45,7 @@
          </li>
          <li class="nav-item">
            <a href="admin_loai_san_pham.php" class="nav-link">
-             <i class="nav-icon fas fa-copy"></i>
+             <i class="nav-icon fas fas fa-tree"></i>
              <p>
                Quản lý loại sản phẩm
              </p>
@@ -69,7 +69,7 @@
          </li>
          <li class="nav-item">
            <a href="admin_change_pass.php" class="nav-link">
-             <i class="nav-icon fas fa-tree"></i>
+             <i class="nav-icon fas fa-copy"></i>
              <p>
                Đổi mật khẩu
              </p>

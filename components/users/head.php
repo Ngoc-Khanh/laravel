@@ -23,10 +23,9 @@
     <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- custom CSS here -->
-    <!-- <link href=<?php echo _DIR_['CSS']['USERS'] . 'style.css' ?> rel="stylesheet" /> -->
-    <link href=<?php echo _DIR_['CSS']['USERS'] . 'header.css' ?> rel="stylesheet" />
+    <link href=<?php echo _DIR_['CSS']['USERS'] . 'style.css' ?> rel="stylesheet" />
     <!-- custom CSS here -->
-    <!-- <link href=<?php echo _DIR_['CSS']['USERS'] . 'user_register_style.css'; ?> rel="stylesheet" />
+    <link href=<?php echo _DIR_['CSS']['USERS'] . 'user_register_style.css'; ?> rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href=<?php echo _DIR_['FONT']['USERS'] . 'font-awesome-4.7.0/css/font-awesome.min.css'; ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo _DIR_['FONT']['USERS'] . 'iconic/css/material-design-iconic-font.min.css'; ?>>
@@ -41,7 +40,7 @@
     <link href=<?php echo _DIR_['CSS']['USERS'] . 'jquery-ui.min.css' ?> rel="stylesheet" />
     <link href=<?php echo _DIR_['CSS']['USERS'] . 'core-style.css' ?> rel="stylesheet" />
     <link href=<?php echo _DIR_['CSS']['USERS'] . 'responsive.css' ?> rel="stylesheet" />
-    <link href=<?php echo _DIR_['CSS']['USERS'] . 'comment.css' ?> rel="stylesheet" /> -->
+    <link href=<?php echo _DIR_['CSS']['USERS'] . 'comment.css' ?> rel="stylesheet" />
 
 </head>
 

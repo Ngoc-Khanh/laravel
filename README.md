@@ -9,5 +9,5 @@ password: 09072003
 
 ```
 username: admin@gmail.com
-password: 09072003
+password: 12345678
 ```
